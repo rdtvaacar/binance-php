@@ -3,7 +3,7 @@
  * @author lin <465382251@qq.com>
  * */
 
-namespace Lin\Binance\Api\WebSocket;
+namespace Rdtvaacar\Binance\Api\WebSocket;
 
 
 trait SocketFunction
@@ -22,18 +22,18 @@ trait SocketFunction
 
         switch ($this->config['baseurl']){
             case 'ws://fstream.binance.com':{
-                $binance=new \Lin\Binance\BinanceFuture($key_secret['key'],$key_secret['secret']);
+                $binance=new \Rdtvaacar\Binance\BinanceFuture($key_secret['key'],$key_secret['secret']);
                 $listen_key=$binance->user()->postListenKey();
                 break;
             }
             case 'ws://dstream.binance.com':{
-                $binance=new \Lin\Binance\BinanceDelivery($key_secret['key'],$key_secret['secret']);
+                $binance=new \Rdtvaacar\Binance\BinanceDelivery($key_secret['key'],$key_secret['secret']);
                 $listen_key=$binance->user()->postListenKey();
                 break;
             }
             //ws://stream.binance.com:9443
             default:{
-                $binance=new \Lin\Binance\Binance($key_secret['key'],$key_secret['secret']);
+                $binance=new \Rdtvaacar\Binance\Binance($key_secret['key'],$key_secret['secret']);
                 $listen_key=$binance->user()->postUserDataStream();
             }
         }

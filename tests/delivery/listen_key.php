@@ -9,7 +9,7 @@
  * Most of them are unfinished and need your help
  * https://github.com/zhouaini528/huobi-php.git
  * */
-use Lin\Binance\BinanceDelivery;
+use Rdtvaacar\Binance\BinanceDelivery;
 
 require __DIR__ .'../../../vendor/autoload.php';
 

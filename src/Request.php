@@ -3,10 +3,10 @@
  * @author lin <465382251@qq.com>
  * */
 
-namespace Lin\Binance;
+namespace Rdtvaacar\Binance;
 
 use GuzzleHttp\Exception\RequestException;
-use Lin\Binance\Exceptions\Exception;
+use Rdtvaacar\Binance\Exceptions\Exception;
 
 class Request
 {

@@ -3,9 +3,9 @@
  * @author lin <465382251@qq.com>
  * */
 
-namespace Lin\Binance\Api\Delivery;
+namespace Rdtvaacar\Binance\Api\Delivery;
 
-use Lin\Binance\Request;
+use Rdtvaacar\Binance\Request;
 
 class Market extends Request
 {

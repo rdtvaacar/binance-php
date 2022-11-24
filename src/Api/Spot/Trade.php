@@ -3,9 +3,9 @@
  * @author lin <465382251@qq.com>
  * */
 
-namespace Lin\Binance\Api\Spot;
+namespace Rdtvaacar\Binance\Api\Spot;
 
-use Lin\Binance\Request;
+use Rdtvaacar\Binance\Request;
 
 class Trade extends Request
 {

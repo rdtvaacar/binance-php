@@ -3,10 +3,10 @@
  * @author lin <465382251@qq.com>
  * */
 
-namespace Lin\Binance;
+namespace Rdtvaacar\Binance;
 
-use Lin\Binance\Api\WebSocket\SocketServer;
-use Lin\Binance\Api\WebSocket\SocketClient;
+use Rdtvaacar\Binance\Api\WebSocket\SocketServer;
+use Rdtvaacar\Binance\Api\WebSocket\SocketClient;
 
 
 class BinanceWebSocket

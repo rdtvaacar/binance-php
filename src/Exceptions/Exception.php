@@ -1,5 +1,5 @@
 <?php
-namespace Lin\Binance\Exceptions;
+namespace Rdtvaacar\Binance\Exceptions;
 
 class Exception extends \Exception
 {

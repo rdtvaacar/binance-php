@@ -3,7 +3,7 @@
  * @author lin <465382251@qq.com>
  * */
 
-namespace Lin\Binance\Api\WebSocket;
+namespace Rdtvaacar\Binance\Api\WebSocket;
 
 use GlobalData\Server;
 use GlobalData\Client;

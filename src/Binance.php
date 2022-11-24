@@ -3,12 +3,12 @@
  * @author lin <465382251@qq.com>
  * */
 
-namespace Lin\Binance;
+namespace Rdtvaacar\Binance;
 
 
-use Lin\Binance\Api\Spot\User;
-use Lin\Binance\Api\Spot\System;
-use Lin\Binance\Api\Spot\Trade;
+use Rdtvaacar\Binance\Api\Spot\User;
+use Rdtvaacar\Binance\Api\Spot\System;
+use Rdtvaacar\Binance\Api\Spot\Trade;
 
 class Binance
 {
