@@ -3,9 +3,9 @@
  * @author lin <465382251@qq.com>
  * */
 
-namespace Rdtvaacar\Binance\Api\Delivery;
+namespace Acr\Binance\Api\Delivery;
 
-use Rdtvaacar\Binance\Request;
+use Acr\Binance\Request;
 
 class User extends Request
 {

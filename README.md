@@ -61,7 +61,7 @@ composer require linwj/binance
 
 Support for more request Settings [More](https://github.com/zhouaini528/binance-php/blob/master/tests/spot/proxy.php#L21)
 ```php
-use Rdtvaacar\Binance\Binance;
+use Acr\Binance\Binance;
 $binance=new Binance($key,$secret);
 
 //You can set special needs
@@ -83,7 +83,7 @@ $binance->setOptions([
 System related API [More](https://github.com/zhouaini528/binance-php/blob/master/tests/spot/system.php)
 
 ```php
-use Rdtvaacar\Binance\Binance;
+use Acr\Binance\Binance;
 $binance=new Binance();
 
 //Order book
@@ -122,7 +122,7 @@ try {
 Trade related API [More](https://github.com/zhouaini528/binance-php/blob/master/tests/spot/trade.php)
 
 ```php
-use Rdtvaacar\Binance\Binance;
+use Acr\Binance\Binance;
 $binance=new Binance($key,$secret);
 
 //Send in a new order.
@@ -221,7 +221,7 @@ try {
 User related API [More](https://github.com/zhouaini528/binance-php/blob/master/tests/spot/user.php)
 
 ```php
-use Rdtvaacar\Binance\Binance;
+use Acr\Binance\Binance;
 $binance=new Binance($key,$secret);
 
 //Get all account orders; active, canceled, or filled.
@@ -282,8 +282,8 @@ try {
 Market related API [More](https://github.com/zhouaini528/binance-php/blob/master/tests/future/system.php)
 
 ```php
-use Rdtvaacar\Binance\BinanceFuture;
-use Rdtvaacar\Binance\BinanceDelivery;
+use Acr\Binance\BinanceFuture;
+use Acr\Binance\BinanceDelivery;
 
 $binance=new BinanceFuture();
 //Or New Delivery
@@ -358,8 +358,8 @@ try {
 Trade related API [More](https://github.com/zhouaini528/binance-php/blob/master/tests/future/trade.php)
 
 ```php
-use Rdtvaacar\Binance\BinanceFuture;
-use Rdtvaacar\Binance\BinanceDelivery;
+use Acr\Binance\BinanceFuture;
+use Acr\Binance\BinanceDelivery;
 
 $binance=new BinanceFuture();
 //Or New Delivery
@@ -412,8 +412,8 @@ try {
 User related API [More](https://github.com/zhouaini528/binance-php/blob/master/tests/future/user.php)
 
 ```php
-use Rdtvaacar\Binance\BinanceFuture;
-use Rdtvaacar\Binance\BinanceDelivery;
+use Acr\Binance\BinanceFuture;
+use Acr\Binance\BinanceDelivery;
 
 $binance=new BinanceFuture();
 //Or New Delivery
@@ -488,7 +488,7 @@ Websocket has two services, server and client. The server is responsible for dea
 
 Server initialization must be started in Liunx CLI mode.
 ```php
-use \Rdtvaacar\Binance\BinanceWebSocket;
+use \Acr\Binance\BinanceWebSocket;
 require __DIR__ .'./vendor/autoload.php';
 
 $binance=new BinanceWebSocket();

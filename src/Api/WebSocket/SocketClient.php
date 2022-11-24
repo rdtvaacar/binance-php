@@ -3,10 +3,10 @@
  * @author lin <465382251@qq.com>
  * */
 
-namespace Rdtvaacar\Binance\Api\WebSocket;
+namespace Acr\Binance\Api\WebSocket;
 
-use Rdtvaacar\Binance\Api\WebSocket\SocketGlobal;
-use Rdtvaacar\Binance\Api\WebSocket\SocketFunction;
+use Acr\Binance\Api\WebSocket\SocketGlobal;
+use Acr\Binance\Api\WebSocket\SocketFunction;
 
 use Workerman\Lib\Timer;
 use Workerman\Worker;

@@ -3,12 +3,12 @@
  * @author lin <465382251@qq.com>
  * */
 
-namespace Rdtvaacar\Binance;
+namespace Acr\Binance;
 
 
-use Rdtvaacar\Binance\Api\Futures\User;
-use Rdtvaacar\Binance\Api\Futures\Trade;
-use Rdtvaacar\Binance\Api\Futures\Market;
+use Acr\Binance\Api\Futures\User;
+use Acr\Binance\Api\Futures\Trade;
+use Acr\Binance\Api\Futures\Market;
 
 class BinanceFuture
 {

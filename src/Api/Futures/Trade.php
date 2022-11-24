@@ -3,9 +3,9 @@
  * @author lin <465382251@qq.com>
  * */
 
-namespace Rdtvaacar\Binance\Api\Futures;
+namespace Acr\Binance\Api\Futures;
 
-use Rdtvaacar\Binance\Request;
+use Acr\Binance\Request;
 
 class Trade extends Request
 {

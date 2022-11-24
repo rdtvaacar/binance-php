@@ -1,5 +1,5 @@
 {
-  "name": "rdtvaacar/binance",
+  "name": "acr/binance",
   "type": "library",
   "description": "Binance API Like the official document interface, Support for arbitrary extension.",
   "license": "MIT",
@@ -19,7 +19,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Rdtvaacar\\Binance\\": "./src/"
+      "Acr\\Binance\\": "./src/"
     }
   },
   "require": {
